@@ -1,0 +1,54 @@
+.text
+{
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px ;
+    font-weight: 900;
+    color:rgba(47, 139, 13, 0.768);
+    text-align: center;
+    margin-top: 30px;
+
+}
+h1 {
+    text-align: center;
+    margin: 3px;
+    color:green
+    
+  }
+  h3{
+    text-align: center;
+  }
+
+  .abc
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 600;
+  }
+  .text1
+{
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px ;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+    font-style: oblique;
+  
+
+}
+
+.mainhome
+{
+  background-color: rgb(203, 240, 176);
+  
+
+}
+
+.img1
+{
+  margin-left: 720px;
+ 
+ 
+}

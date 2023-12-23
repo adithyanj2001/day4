@@ -1,0 +1,13 @@
+.bold
+{
+    font-weight: 630;  
+}
+.color
+{
+    background-color: rgb(255, 250, 250);
+}
+.colors
+{
+    text-decoration: solid;
+    color: black;
+}

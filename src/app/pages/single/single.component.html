@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container my-5 py-5">
+        <h1 class="text-center heading">
+            {{data[0].title}}
+        </h1>
+    
+    
+        <div class="container mt-5 pt-5 image">
+            <img  class="border rounded mainImg" src="{{data[0].image}}" alt="">   
+              
+    
+        </div>
+    
+        <div class="design">
+            <p [innerHTML]="data[0].description"></p>
+        </div>
+    
+   </div>
+</body>
+</html>

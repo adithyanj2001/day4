@@ -1,0 +1,40 @@
+.heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px ;
+    font-weight: 900;
+    color: rgb(205, 205, 48);
+}
+
+.bod{
+    background-color: rgb(200, 235, 164);
+    
+   }
+
+.mainImg{
+width: 500px;
+
+}
+
+.design
+{
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px ;
+margin-top: 90px;
+  
+ 
+}
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+body{
+    width: 100%;
+
+}

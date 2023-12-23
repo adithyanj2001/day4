@@ -1,0 +1,62 @@
+.bg
+{
+    align-items:center;
+}
+
+.container
+{
+ margin-left: 100px;
+   
+}
+
+.bg{
+    size-adjust: 100px;
+}
+
+.text
+{
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px ;
+    font-weight: 900;
+    color:rgba(24, 114, 12, 0.768);
+    text-align: center;
+    margin-top: 10px;
+
+}
+.img3{
+  
+    margin-left: 620px;
+
+ 
+}
+.img2{
+  
+    margin-left: 220px;
+    opacity: 70%;
+    margin-top: 100px;
+
+ 
+}
+.container
+{
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px ;
+margin-top: 90px;
+  
+ 
+}
+
+
+
+.img4{
+    margin-left: 330px;
+ }
+
+ .background
+ {
+    background-color: rgb(203, 240, 176);
+ }
+
+

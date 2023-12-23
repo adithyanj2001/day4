@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<body class="background">
+    <div>
+        <img  class="img1"  src="assets/img/only.png" alt="" width="100" >
+         <h1 class="heading">BEAUTY OF KERALA</h1>
+    </div>
+    <br>
+    <br>
+    
+    
+    <div class="container">
+        <div class="row">
+            @for(item of district ;track item.id){
+                <div class="col-lg-4 pt-2">
+                    <div class="card" style="width: 18rem; height: 30rem;" >
+                        <img src="{{item.image}}" style="height: 10rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{item.title}}</h5>
+                          <p class="card-text my-3" style="height: 10rem;" >
+                          {{item.description | slice:0:200 }}</p>
+                          <a [routerLink]="['/district',item.id]" class="btn btn-primary">Go </a>
+                        </div>
+                      </div>
+                </div>
+            }
+        </div>
+    </div>
+    
+    </body>
+    
+    
+    
+    
+    
+</body>
+</html>
